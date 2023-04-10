@@ -1,8 +1,8 @@
 body{
     
-    background-image: url(https://wallpapercave.com/wp/YyfyCXK.jpg);
-    margin:0;
-    font-family: Arial;
+    background-image: url(https://wallpapercave.com/wp/wp4430289.jpg);
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
 }
 table, td,th{
@@ -10,16 +10,35 @@ border:3px solid blue;
 margin:5px auto;
 width: 200vh;
 border-collapse: collapse;
-background-color:rgb(189, 202, 200);
+background-color:rgb(143, 236, 222);
+font-family: 'Alkatra', cursive;
+font-family: 'Delicious Handrawn', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Rubik Pixels', cursive;
+}
 
-}
-li::before {
-    list-style-type: none;
-    content:"\2192";
-margin-right: 10px;
-color: blue;
- font-family: cursive;
-}
+
+
+
 #heading{
     text-align: center;
+    color: rgba(144, 227, 255, 0.816);
+}
+#line{
+    height: 3px; 
+    background-color: rgb(104, 117, 199);
+}
+#upcome{
+    background-color: rgba(85, 174, 237, 0.671);
+    display: inline-block;
+}
+#upcome::before{
+    content: "Upcoming";
+    text-align: left;
+    color: rgb(244, 253, 255);
+}
+#upcome::after{
+    content: " Matches";
+    text-align: left;
+    color: rgb(53, 202, 235);
 }
