@@ -1,0 +1,25 @@
+body{
+    
+    background-image: url(https://wallpapercave.com/wp/YyfyCXK.jpg);
+    margin:0;
+    font-family: Arial;
+    font-size: 17px;
+}
+table, td,th{
+border:3px solid blue;
+margin:5px auto;
+width: 200vh;
+border-collapse: collapse;
+background-color:rgb(189, 202, 200);
+
+}
+li::before {
+    list-style-type: none;
+    content:"\2192";
+margin-right: 10px;
+color: blue;
+ font-family: cursive;
+}
+#heading{
+    text-align: center;
+}
